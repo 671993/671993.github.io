@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Clínica Ledezma</title>
+      
+        <!-- Import the webpage's stylesheet -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="img/nuevoc.css" />
+
+        <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+        <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+      </head>
+<body>
+    <header class="header">
+        <div class="container">
+            
+                <img src="imagenes/ledez.svg" alt="logo" width="90" height="80">
+              
+            <div class="boton">
+                <label for="btn-menu">Menú</label>
+            </div>
+            <input type="checkbox" id="btn-menu">
+            <nav class="menu">
+                <a href="#principal">Inicio</a>
+                <a href="#container-slider">Servicios</a>
+                <a href="#futer">Contacto</a>
+            </nav>
+        </div>
+        
+    </header>
+    <section id="principal">
+        <div class="imagen d-flex justify-content-center align-items-center flex-column">
+            <h1>
+              Clínica Ledezma
+            </h1>
+            <p>
+              Conoce nuestras especialidades, <br>
+              los médicos y nuestros horarios de atención.
+            </p>
+           
+          </div>
+    </section>
+ 
+      <section >
+        <div class="container mt-5 mb-5">
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+              <div class="card">
+                <div title="Tomógrafo" class="imagen-small" style="background-image:url(imagenes/auto.png)">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Emergencias</h5>
+                  <p class="card-text">Médicos emergenciólogos y médicos intensivistas de adultos, niños y neonatos las 24 horas del día, 
+                    garantizando de esta manera, la continuidad de la atención médica.</p>
+                    <span class="badge text-bg-warning">Llamanos 50204362</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+              <div class="card">
+                <div title="Odontología" class="imagen-small" style="background-image:url(imagenes/odon.jpg)">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Odontología</h5>
+                  <p class="card-text">¿Buscas una sonrisa perfecta? Nuestros expertos en odontología te brindan
+                     tratamientos de calidad para una salud bucal impecable. ¡Sonríe con confianza!</p>
+                  <a href="img/odon.html" class="btn btn-primary">Ver servicios</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+              <div class="card">
+                <div title="Ecografía" class="imagen-small" style="background-image:url(imagenes/eco.jpg)">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Ecografía</h5>
+                  <p class="card-text">Some quick i know how to say example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+      </section>
+
+      <section id="container-slider">
+        <a href="javascript: funcionEjecutar('anterior');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: funcionEjecutar('siguiente');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+            <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+            <li><a itlist="itList_1" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+            <li><a itlist="itList_3" href="#"></a></li>
+            <li><a itlist="itList_4" href="#"></a></li>
+            <li><a itlist="itList_5" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+            <li style="background-image: url('imagenes/01.jpg'); z-index:0; opacity: 1;">
+                <div class="content_slider">
+                    <div>
+                        <h2>Servicio de Imagenología</h2>
+                        <p>Tomografía<br> Rayos X Digital <br> Ecografía <br>Electrocardiograma<br>Electroencefalograma</p>
+                        <a href="#" target="_blank" class="btnSlider">Acceder</a>
+                    </div>
+                </div>
+            </li>
+            <li style="background-image: url('imagenes/02.jpg'); ">
+                <div class="content_slider">
+                    <div>
+                        <h2>Servicio de Ambulancia</h2>
+                        <p>Nuestro servicio de ambulancia las 24 horas <br>te brinda atención médica rápida
+                           y confiable en cualquier situación de emergencia <br>Equipo Médico Especializado 
+                           <br> Respuesta Rápida<br>Equipamiento Avanzado <br>Cobertura Completa <br>Seguridad y Comodidad<br>Atención Humanizada</p>
+                        <a href="#" target="_blank" class="btnSlider">Acceder</a>
+                    </div>
+                </div>
+            </li>
+            <li style="background-image: url('imagenes/03.jpg'); ">
+                <div class="content_slider">
+                    <div>
+                        <h2>Servicio de Quirofano</h2>
+                        <p>Egfhfh</p>
+                        <a href="#" target="_blank" class="btnSlider">Acceder</a>
+                    </div>
+                </div>
+            </li>
+            <li style="background-image: url('imagenes/04.jpg'); ">
+                <div class="content_slider">
+                    <div>
+                        <h2>Servicio de Terapia Intensiva</h2>
+                        <p>texto</p>
+                        <a href="#" target="_blank" class="btnSlider">Acceder</a>
+                    </div>
+                </div>
+            </li>
+            <li style="background-image: url('imagenes/05.jpg'); ">
+                <div class="content_slider">
+                    <div>
+                        <h2>Farmacia</h2>
+                        <p>texto</p>
+                        <a href="#" target="_blank" class="btnSlider">Acceder</a>
+                    </div>
+                </div>
+            </li>
+            <li style="background-image: url('imagenes/06.jpeg'); ">
+                <div class="content_slider">
+                    <div>
+                        <h2>Especialidades</h2>
+                        <p>Medicina general<br>
+                          Traumatología<br>
+                          Cirugía general <br>
+                          Pediatría <br>
+                          Ginecología <br>
+                          Cardiologia <br>
+                          Neurología<br>
+                          Medicina interna<br>
+                          Urología</p>
+                        <a href="#" target="_blank" class="btnSlider">Acceder</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    
+    <script src="img/script.js"></script>
+    
+
+      <section>
+        <h1>Farmacia</h1>
+        <div class="container mt-5 mb-5">
+          <div class="produc-stripe">
+            <div class="stripe-container">
+              <div class="card">
+                <div title="Tesla" class="imagen-small" style="background-image:url(imagenes/im.jpg)">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Carolina Colageno Hidrolizado Inmune X Unidad</h5>
+                  <span class="badge bg-info text-dark"> 2 Bs</span>
+                </div>
+              </div>
+              <div class="card">
+                <div title="Galvanometro" class="imagen-small" style="background-image:url(imagenes/im2.jpeg)">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Zinc 50Mg X 100 Tabletas</h5>
+                  <span class="badge bg-light text-dark">80 Bs</span>
+                </div>
+              </div>
+              <div class="card">
+                <div title="wimshurst" class="imagen-small" style="background-image:url(imagenes/refr.jpg)">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Refrianex Dia Limon X Sobre</h5>
+                  <span class="badge bg-dark"> 5 Bs</span>
+                </div>
+              </div>
+              <div class="card">
+                <div title="vandegraff" class="imagen-small" style="background-image:url(imagenes/im2.jpg)">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Vitamin D3 Vitamina D3 2000Ui X 180 Capsulas Blandas </h5>
+                  <span class="badge bg-dark"> 50 Bs</span>
+                </div>
+              </div>
+              <div class="card">
+                <div title="Pendulo" class="imagen-small" style="background-image:url(imagenes/im3.jpg)">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Alergical Sf Clorfeniramina Y Pseudoefedri X Tableta</h5>
+                  <span class="badge bg-light text-dark"> 3 Bs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </section>
+      <section>
+        <h4>
+          Aquí nos vemos
+        </h4>
+        <p>
+          AV. SANTA CRUZ ESQUINA PANDO, Ivirgarzama
+        </p>
+        <div class="container mt-5 mb-5">
+          <div class="responsive-iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1907.3629562857657!2d-64.86245172213795!3d-17.037109192768714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e5a5abdc427c57%3A0xe1667f9f5615d340!2zQ0xJTklDQSDCqExFREVaTUHCqA!5e0!3m2!1ses!2sbo!4v1690766536784!5m2!1ses!2sbo" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </section>
+     
+      <section id="miembros">
+        <div class="container mt-5 ">
+          <h2>Conoce al equipo</h2>
+          <p>Nuestro equipo de médicos altamente capacitados en nuestra clínica de segundo nivel está comprometido con tu salud y bienestar. 
+            Experiencia, atención personalizada y tecnología avanzada te esperan en cada visita.
+          </p>
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 mt-2">
+              <div class="card p-3 text-center">
+                <div class="colorear">
+                <div class="avatar rounded-circle inline-block" style="background-image: url(imagenes/fot.png);">
+                </div>
+                </div>
+                <h4 class="mt-2">
+                  Gato Volador
+                </h4>
+                <div class="contacto">
+                  <span class="badge text-bg-primary">Contacto</span>
+                  <span class="numero">63998626</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-2">
+              <div class="card p-3 text-center">
+                <div class="avatar rounded-circle inline-block" style="background-image: url(imagenes/medi.png);">
+                </div>
+                <h4 class="mt-2">
+                  Ledezma
+                </h4>
+                <div class="contacto">
+                  <span class="badge text-bg-primary">Contacto</span>
+                  <span class="numero">123-456-7890</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-2">
+              <div class="card p-3 text-center">
+                <div class="avatar rounded-circle inline-block" style="background-image: url(imagenes/ces.png);">
+                </div>
+                <h4 class="mt-2">
+                  Henrry
+                </h4>
+                <div class="contacto">
+                  <span class="badge text-bg-primary">Contacto</span>
+                  <span class="numero">76963983</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <footer class="pie-pagina" id="futer">
+        <div class="grupo-1">
+          <div class="box">
+            <figure>
+              <a href="#">
+                <img src="imagenes/ledez.svg" alt="Logo de SLee Dw">
+              </a>
+            </figure>
+          </div>
+          <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Los mejores médicos, infraestructura especializada y tecnología de punta hacen de la 
+              Clínica Ledezma un referente en todo el Trópico de Cochabamba.</p>
+          </div>
+          <div class="box">
+            <h4><span style="color: white;" >Contactanos</span></h4>
+            <p>50204362-63955965</p>
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+              <a href="https://www.facebook.com/profile.php?id=100069744399493&mibextid=ZbWKwL" target="_blank" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-youtube"></a>
+            </div>
+            
+            
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

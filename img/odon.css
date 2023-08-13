@@ -1,0 +1,264 @@
+html {
+    box-sizing: border-box;
+    /*font-size: 62.5%;*/
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    background: #101922;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container img{
+    width: 60px;
+    height: 60px;
+}
+
+.menu {
+    float: right;
+    line-height: 75px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: normal;
+    font-size: 14px;
+    transition: all 500ms ease;
+    border-bottom: 4px solid transparent;
+}
+
+.menu a:hover {
+    color: #40de32;
+    border-bottom: 4px solid #40de32;
+}
+
+/* Estilos al botón de menú */
+#btn-menu {
+    display: none;
+}
+
+.boton {
+    float: right;
+    display: none;
+}
+
+.boton label {
+    color: #fff;
+    background: #2a343e;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .header {
+        height: 60px;
+    }
+
+    /* Mostrar el menú al hacer clic en el botón */
+    .menu {
+        position: absolute;
+        background: #234;
+        width: 100%;
+        height: calc(100vh - 60px);
+        /* Restar la altura del encabezado */
+        top: 60px;
+        left: 0;
+        transition: all 500ms ease;
+        transform: translateX(-100%);
+    }
+
+    #btn-menu:checked~.menu {
+        transform: translateX(0%);
+    }
+
+    .menu a {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .boton {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+}
+
+
+.cont {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.list {
+    flex: 1;
+}
+
+.list h2 {
+    margin-top: 0;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    list-style-type: disc;
+    /* Utilizamos 'disc' para puntos como viñetas */
+    padding-left: 20px;
+    /* Añadimos un espacio a la izquierda para separar los puntos de los elementos */
+
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.info {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.info h2 {
+    margin-top: 0;
+}
+
+/*chat*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #009688;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    background-image:url(../imagenes/dentista-sonrisa.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #009688;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.service {
+    margin-bottom: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; /* Agrega margen derecho para separar las imágenes */
+}
+
+.service img {
+    max-width: 150px;
+}
+.service h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.service p {
+    color: #666;
+}
+
+.team {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.team-member {
+    margin-bottom: 30px;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.team-member p {
+    color: #666;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #009688;
+    color: #fff;
+}

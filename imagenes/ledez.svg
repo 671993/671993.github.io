@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   data-name="Layer 1"
+   width="524.39246"
+   height="215.16269"
+   viewBox="0 0 524.39244 215.16269"
+   version="1.1"
+   id="svg145"
+   sodipodi:docname="undraw_medicine_b-1-ol.svg"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview145"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.64389198"
+     inkscape:cx="552.88777"
+     inkscape:cy="391.37"
+     inkscape:window-width="1294"
+     inkscape:window-height="704"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg145" />
+  <defs
+     id="defs3" />
+  <title
+     id="title3">medicine</title>
+  <g
+     id="g145"
+     transform="translate(-432.79774,-328.83126)">
+    <path
+       d="m 561.21317,328.83128 h -0.42148 c -16.76913,0 -31.59949,8.87348 -40.13017,21.96735 -8.53068,-13.09387 -23.36103,-21.96735 -40.13017,-21.96735 h -0.42148 a 47.767321,47.767321 0 0 0 -47.31212,47.73922 c 0,15.62834 6.84477,37.80362 20.19153,56.05074 25.42907,34.76899 67.67224,65.18834 67.67224,65.18834 0,0 42.24317,-30.41373 67.66663,-65.18834 13.35237,-18.24712 20.19153,-40.4224 20.19153,-56.05074 a 47.767321,47.767321 0 0 0 -47.30651,-47.73922 z m -6.02992,106.46493 a 9.469169,9.469169 0 0 1 -8.80605,-6.0805 h -10.02551 a 3.1695022,3.1695022 0 0 1 -2.98406,-2.15796 l -3.07959,-9.2781 -9.74453,34.04967 a 3.1526432,3.1526432 0 0 1 -3.02339,2.27597 h -0.19669 a 3.1133054,3.1133054 0 0 1 -2.92224,-2.60753 l -10.04238,-60.40037 -7.3393,35.74119 a 3.1301644,3.1301644 0 0 1 -3.04025,2.37713 h -14.12227 a 3.1414038,3.1414038 0 1 1 0,-6.27719 h 11.64961 l 10.39641,-48.05393 a 3.1526432,3.1526432 0 0 1 6.18166,0.25851 l 10.25592,61.61423 8.73299,-30.46431 a 3.0908266,3.0908266 0 0 1 2.93909,-2.24788 h 0.0619 a 3.1357842,3.1357842 0 0 1 2.97843,2.15796 l 5.56911,16.75228 h 7.63153 a 9.418592,9.418592 0 1 1 8.94654,12.36331 z"
+       fill="#6c63ff"
+       id="path145"
+       style="fill:#37c837;stroke-width:0.561969" />
+    <text
+       xml:space="preserve"
+       style="font-size:119.812px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';fill:#e9afaf;stroke-width:2.38109"
+       x="492.39227"
+       y="542.53143"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="492.39227"
+         y="542.53143"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:119.812px;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ccff;stroke-width:2.38109">Ledezma</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:125.716px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';fill:#e9afaf;stroke-width:2.49842"
+       x="569.08923"
+       y="429.76587"
+       id="text1"><tspan
+         sodipodi:role="line"
+         x="569.08923"
+         y="429.76587"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:125.716px;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ccff;stroke-width:2.49842">Clínica</tspan></text>
+  </g>
+</svg>
