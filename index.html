@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tienda Entrerios</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/hefoo.css">
       <!-- Favicon -->
       <link rel="icon" href="https://tiendaentrerios.com/imagenes/logpng.svg" type="image/svg+xml">
       <link rel="icon" href="https://tiendaentrerios.com/imagenes/logpng.png" type="image/png">
@@ -45,42 +47,65 @@
 </head>
 
 <body>
-
-    <canvas id="neuro"></canvas>
-    
-    <header class="encabezado">
-        <div class="contenedor-navegacion">
-          <div class="contenido-navegacion contenedor">
-            <div class="logo">
-              <h2><span class="verde">Entre Ríos</span></h2>
-            </div>
-            <nav class="navegacion ocultar">
-                <a href="https://tiendachimore.com">Tienda Chimoré</a>
-                <a href="https://tiendavillatunari.com">Tienda Villa Tunari</a>
-                <a href="https://tiendashinaota.com">Tienda Shinahota</a>
-                <a href="https://tiendaivirgarzama.com">Tienda Ivirgarzama</a>
-              
-            </nav>
-            <div class="hamburguesa">
-              <span></span><span></span><span></span>
-            </div>
-          </div>
+    <!-- Hero Section -->
+    <!-- Navigation -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo">Ivirgarzama</div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <li><a href="https://tiendachimore.com">Chimoré</a></li>
+                <li><a href="https://tiendashinaota.com">Shinahota</a></li>
+                <li>
+                    <a href="https://tiendaentrerios.com">Entre Ríos</a>
+                   
+                </li>
+                <li>
+                    <a href="https://tiendavillatunari.com">Villa Tunari</a>
+                   
+                </li>
+                <li><a href="#footer">Contáctanos</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
         </div>
-      </header>
-    
-      <div class="hero">
-        <h1>Encuentro de aguas y aventuras,<br>
-         donde la naturaleza pura te invita a explorar sus maravillas<br>
-         donde cada rincón es una nueva oportunidad para descubrir la belleza natural.</h1>
-        <h2>Publica tu anuncio: 75922126</h2>
-      </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="carousel">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1>Bienvenidos al Trópico</h1>
+                    <p>Naturaleza y paisajes inolvidables</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Vive la experiencia del Trópico</h1>
+                    <p>Emocionantes aventuras al aire libre</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Turismo en Ivirgarzama</h1>
+                    <p>Aventura, Ríos y Belleza Natural</p>
+                </div>
+            </div>
+        </div>
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
     <section id="nuestros-programas">
-        <div class="container">
-            <h2>Todo lo que buscas</h2>
+        <div class="containercard">
+            <h2>Anuncios Publicados</h2>
             <div class="programas">
                 <div class="carta">
-                    <h3>Lotes Chacos Inmuebles</h3>
+                    <h3>Inmuebles</h3>
                     <button onclick="location.href='todoloquebuscas/inmuebles/inmuebles.html'"><span>+info</span></button>
                 </div>
                 <div class="carta">
@@ -99,170 +124,133 @@
         </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about-us" class="about-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Visita Ivirgarzama</h2>
+            <p class="section-subtitle fade-in-up">¡Descubre todo lo que Ivirgarzama tiene para ofrecer!</p>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Encontrarás una amplia gama de productos y servicios
+          Desde artesanías únicas hasta deliciosa comida local.
+                    </p>
+                    <h2>Puerto Villarroel</h2>
+                    <p>
+                        Descubre Perto Villarroel y disfruta de su variada gastronomía a base de pescados.
+                 Navega por el río Mamoré en barcos y lanchas de turismo, o prueba la pesca deportiva.
+                  Además, podrás visitar comunidades indígenas y 
+                explorar sitios arqueológicos. ¡Una experiencia única en la Amazonía boliviana!
+                    </p>
+                  <!--   <h2>Visión</h2>
+                    <p>
+                        Ser reconocidos como un centro de excelencia educativa que inspira una
+                        pasión permanente por el aprendizaje y
+                        prepara a los estudiantes para hacer contribuciones significativas a la sociedad.
+                    </p> -->
+
+                </div>
+                <div class="about-image">
+                    <img src="imagenes/ivi5.jpeg" alt="Puerto Villarroel" id="campus-image">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <h2 class="section-title">Anuncios Destacados</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="imagenes/cupe.webp" alt="Cupe"
+                    class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Mundo Acuático CUPE</h3>
+                    <p class="card-text">Parque privado de turismo, aventuras aéreas extremas y acuáticos.
+                    </p>
+                    <a href="https://www.facebook.com/cupemundoacuatico" class="card-button">Más información</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/ledez.webp" alt="Clínica Ledezma"
+                    class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Clínica Ledezma </h3>
+                    <p class="card-text">Clínica de 2do nivel. Atención las 24 horas.</p>
+                    <a href="https://www.facebook.com/profile.php?id=61564378648418" class="card-button">Más información</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/wo.webp" alt="Cine"
+                    class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">World Cinema </h3>
+                    <p class="card-text"> ¡Vive la magia del cine! Las mejores películas te esperan.</p>
+                    <a href="https://www.facebook.com/profile.php?id=100095613547824&mibextid=LQQJ4d" class="card-button">Más información</a>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
    
 
-    <div class="contenedor-nosotros contenedor">
-        <div class="texto-nosotros">
-            <h1>Turismo </h1>
-            <h2> Río Ichoa</h2>
-            <p>Un hermoso río con aguas cristalinas, 
-                ideal para paseos en canoa y pesca deportiva. 
-            </p>
-            <h2> Río Blanco</h2>
-            <p> Sus aguas claras y refrescantes son perfectas para nadar, pescar y disfrutar de actividades 
-                 acuáticas. Además, el entorno del río es ideal para pasar un día al aire libre.
-            </p>
-            
-        </div>
-        <div class="imagenes-nosotros">
-            <div class="imagen1">
-                <img data-src="imagenes/entrerios2.webp" alt="Pesca">
-                <img data-src="imagenes/entrerios1.webp" alt="Río Ichoa">
-            </div>
-            <div class="imagenes2">
-                <img data-src="imagenes/entrerios4.webp" alt="Stadium">
-                <img data-src="imagenes/entrerios3.webp" alt="Cosecha de piñas">
-            </div>
-        </div>
-    </div>
-    <section id="contacivi">
-        <h2>Contactos </h2>
-    <div class="container">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front tarjeta-1">
-                    <p class="title">Instituto Técnico Superior "Entre Rios Tec" </p>
-                    <p></p>
+    <!-- Footer -->
+    <footer class="site-footer" id="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-column">
+                   <img src="imagenes/logpng.svg" class="logo">
                 </div>
-                <div class="flip-card-back">
-                    <p class="title"></p>
-                    <p>entreriostec<br>@hotmail.com</p>
-                    <p>72740457</p>
-                </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front tarjeta-2">
-                    <p class="title">Pedidos Kiero</p>
-                    <p></p>
-                </div>
-                <div class="flip-card-back">
-                    <p class="title"></p>
-                    <p>76932915</p>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front tarjeta-3">
-                    <p class="title">Servicio Técnico ENTRE RÍOS </p>
-                    <p></p>
-                </div>
-                <div class="flip-card-back">
-                    <p class="title"></p>
-                    <p>77179396</p>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front tarjeta-4">
-                    <p class="title">Hotel Petrolero</p>
-                    <p></p>
-                </div>
-                <div class="flip-card-back">
-                    <p class="title"></p>
-                    <p>76452001</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
- 
+                <div class="footer-column">
+                    <h3>Visítanos</h3>
+                    <ul>
+                        <li><a href="https://tiendachimore.com">Tienda Chimoré</a></li>
+                        <li><a href="https://tiendaentrerios.com">Tienda Entre Ríos</a></li>
+                        <li><a href="https://tiendavillatunari.com">Tienda Villa Tunari</a></li>
+                        <li><a href="https://tiendashinaota.com">Tienda Shinahota</a></li>
+                    </ul>
+                </div>
 
-    
-<div class="pie-pagina">
-    <div class="contenedor-piepagina">
-        <img data-src="imagenes/logpng.svg" alt="Digital tropic" class="logo">
-        <div class="info">
-            <h3>Encuentra tu anuncio</h3>
-            <h3>Publica tu anuncio</h3>
-            <p>62625521</p>
+                <div class="footer-column">
+                    <h3>Contactanos</h3>
+                    <p>Conectemos el Trópico<br>
+                        Publica tu anuncio<br>
+                        Celular: 62625521<br>
+                        Gmail: digitaltropic66@gmail.com</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Ivirgarzama-Contactos</h3>
+                    <p>Hospital: 72214361-72738461</p>
+                    <p>Policia:</p>
+
+                      <!--   <div class="social-icons">
+                            <a href="https://www.facebook.com/tuusuario" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/tuusuario" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.youtube.com/c/tuusuario" target="_blank">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@tuusuario" target="_blank">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </div> -->
+                </div>
+
+
+
+            </div>
         </div>
-        <div class="info">
-            <h3>Visita nuestras tiendas</h3>
-            <p>
-            <a href="https://tiendaivirgarzama.com" >Tienda Ivirgarzama</a>
-            <a href="https://tiendachimore.com" >Tienda Chimoré</a>
-            <a href="https://tiendashinaota.com" >Tienda Shinahota</a>
-            <a href="https://tiendavillatunari.com" >Tienda Villa Tunari</a>
-        </p>
-        </div>
-    </div>
-</div>
-<script type="x-shader/x-fragment" id="vertShader">
-    precision mediump float;
-    varying vec2 vUv;
-    attribute vec2 a_position;
-    void main() {
-        vUv = .5 * (a_position + 1.);
-        gl_Position = vec4(a_position, 0.0, 1.0);
-    }
-    </script>
-    
-    <script type="x-shader/x-fragment" id="fragShader">
-    precision mediump float;
-    varying vec2 vUv;
-    uniform float u_time;
-    uniform float u_ratio;
-    uniform vec2 u_pointer_position;
-    uniform float u_scroll_progress;
-    vec2 rotate(vec2 uv, float th) {
-        return mat2(cos(th), sin(th), -sin(th), cos(th)) * uv;
-    }
-    float neuro_shape(vec2 uv, float t, float p) {
-        vec2 sine_acc = vec2(0.);
-        vec2 res = vec2(0.);
-        float scale = 8.;
-        for (int j = 0; j < 15; j++) {
-            uv = rotate(uv, 1.);
-            sine_acc = rotate(sine_acc, 1.);
-            vec2 layer = uv * scale + float(j) + sine_acc - t;
-            sine_acc += sin(layer);
-            res += (.5 + .5 * cos(layer)) / scale;
-            scale *= (1.2 - .07 * p);
-        }
-        return res.x + res.y;
-    }
-    void main() {
-        vec2 uv = .5 * vUv;
-        uv.x *= u_ratio;
-        vec2 pointer = vUv - u_pointer_position;
-        pointer.x *= u_ratio;
-        float p = clamp(length(pointer), 0., 1.);
-        p = .5 * pow(1. - p, 2.);
-        float t = .001 * u_time;
-        vec3 color = vec3(0.);
-        float noise = neuro_shape(uv, t, p);
-        noise = 1.2 * pow(noise, 3.);
-        noise += pow(noise, 10.);
-        noise = max(.0, noise - .5);
-        noise *= (1. - length(vUv - .5));
-        color = normalize(vec3(.2, .5 + .4 * cos(3. * u_scroll_progress), .5 + .5 * sin(3. * u_scroll_progress)));
-        color = color * noise;
-        gl_FragColor = vec4(color, noise);
-    }
-    </script>
-    
+    </footer>
     
     <script src="js/app.js"></script>
-    <script src="js/fondo.js"></script>
-   
+    <!-- <script src="js/fondo.js"></script> -->
 
 </body>
-
 </html>
